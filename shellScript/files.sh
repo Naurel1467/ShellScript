@@ -1,3 +1,19 @@
+var1="c/users/sag"
+#final c/users/sag
+Item_to_be_removed="c/users/"
+
+echo "final $List_String"
+
+
+
+
+filesDirName="/C/Users/OM SAI RAM/HelloWorldSagar"
+echo ${filesDirName}
+echo "cd ${filesDirName}"
+cd "${filesDirName}"
+
+
+
 sourceCode=(java txt properties)
 binaryCode=(jar war zip)
 allFiles=(sagar.java hello.war world.zip memory sql.properties)
